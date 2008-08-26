@@ -1,5 +1,5 @@
 category: Net
-requires: cygwin glib2 libdbus-glib_1_2 libpurple libtelepathy-glib0
+requires: cygwin glib2 libdbus-glib_1_2 libpurple0 libtelepathy-glib0
 sdesc: "libpurple protocols Telepathy connection manager"
 ldesc: "A libpurple-based Telepathy connection manager, to provide 
 Telepathy clients with access to the full range of protocols supported 
