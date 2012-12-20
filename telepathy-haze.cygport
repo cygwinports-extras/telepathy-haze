@@ -1,0 +1,14 @@
+inherit gnome2
+
+NAME="telepathy-haze"
+VERSION=0.7.0
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="libpurple protocols Telepathy connection manager"
+DESCRIPTION="A libpurple-based Telepathy connection manager, to provide
+Telepathy clients with access to the full range of protocols supported
+by libpurple."
+HOMEPAGE="http://telepathy.freedesktop.org/wiki/"
+SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/telepathy"

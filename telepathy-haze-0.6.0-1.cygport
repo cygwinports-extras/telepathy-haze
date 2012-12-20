@@ -1,7 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="Telepathy libpurple connection manager"
-HOMEPAGE="http://telepathy.freedesktop.org/wiki/"
-SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
-
-CYGCONF_ARGS="--libexecdir=/usr/lib/telepathy"
