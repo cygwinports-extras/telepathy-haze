@@ -9,6 +9,4 @@ DESCRIPTION="A libpurple-based Telepathy connection manager, to provide
 Telepathy clients with access to the full range of protocols supported
 by libpurple."
 HOMEPAGE="http://telepathy.freedesktop.org/wiki/"
-SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
-
-CYGCONF_ARGS="--libexecdir=/usr/lib/telepathy"
+SRC_URI="http://telepathy.freedesktop.org/releases/${NAME}/${NAME}-${VERSION}.tar.gz"
