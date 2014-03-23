@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="telepathy-haze"
-VERSION=0.7.0
+VERSION=0.8.0
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="libpurple protocols Telepathy connection manager"
